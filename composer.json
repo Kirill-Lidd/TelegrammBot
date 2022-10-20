@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "psr-4": {
+      "": "vendor/psr"
+    },
+    "classmap": [
+      "Controllers"
+    ]
+  },
+  "require": {
+    "irazasyed/telegram-bot-sdk": "^3.9",
+    "vkcom/vk-php-sdk": "^5.101",
+    "ext-json": "*",
+    "symfony/dotenv": "^5.4"
+  }
+}
